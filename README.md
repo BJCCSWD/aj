@@ -97,9 +97,9 @@
 部分功能图片：
 
 ![图](static/intro_images/aj_user_register.png)
-![图](staitc/intro_images/aj_user_login.png)
-![图](staitc/intro_images/aj_user_my.png)
-![图](staitc/intro_images/aj_user_profile.png)
+![图](static/intro_images/aj_user_login.png)
+![图](static/intro_images/aj_user_my.png)
+![图](static/intro_images/aj_user_profile.png)
 ![图](static/intro_images/aj_user_auth.png)
 
 房屋模块：
