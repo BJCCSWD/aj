@@ -102,11 +102,48 @@
 ![图](static/intro_images/aj_user_profile.png)
 ![图](static/intro_images/aj_user_auth.png)
 
-房屋模块：
-
-
 
 #### 房屋模块
 
+1. 我的房源列表功能(myhouse.html)
+
+	判断用户是否进行实名认证。
+
+		如果没有实名认证，则展示实名认证的框并隐藏发布房源和展示已发布房源的框。
+		如果用户实名认证了，则展示用户发布房源的信息并隐藏实名认证的框
+
+
+2. 发布房源功能(newhouse.html)
+
+		1）刷新城区信息和设施信息
+		2）发布新房源，保存房屋的基本信息
+		3）发布房源的图片信息，设置房源的首图 
+
+3. 房源详情功能（detail.html）
+
+		获取房源信息，ajax异步加载页面
+
+4. 即刻预约房源（booking.html）
+	
+		1) 预约房屋信息刷新
+		2） 创建订单
+
+部分功能图片：
+
+![图](static/intro_images/aj_house_muhouse.png)
+![图](static/intro_images/aj_house_detail.png)
+![图](static/intro_images/aj_house_booking.png)
+![图](static/intro_images/aj_house_orders.png)
+![图](static/intro_images/aj_house_lorders.png)
+
+
 #### 订单模块
+
+1. 我的订单
+	
+		获取当前登录系统用户下的订单。即为我的订单
+
+2. 客户订单
+
+		获取当前用户发布的房屋，通过该房屋去查询订单。即为客户下单的订单信息
 
