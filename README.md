@@ -128,22 +128,43 @@
 		1) 预约房屋信息刷新
 		2） 创建订单
 
+5. 首页
+		
+		1) 获取当前登录用户信息
+		2) 获取最近发布的前三个有首图的房屋，用于首页的房屋轮播图展示
+		3）选择房源区域信息刷新
+
+6. 搜索页面
+
+		1）判断当前搜索的区域、入住时间和离店时间，通过条件查询已经在入住的房屋，搜索的房屋不需要展示当前已经入住的房屋信息。
+		2）排序，按照入住时间最新，价格升序降序等排序
+
+
 部分功能图片：
 
+![图](static/intro_images/aj_house_index.png)
+![图](static/intro_images/aj_house_search.png)
 ![图](static/intro_images/aj_house_muhouse.png)
 ![图](static/intro_images/aj_house_detail.png)
 ![图](static/intro_images/aj_house_booking.png)
-![图](static/intro_images/aj_house_orders.png)
-![图](static/intro_images/aj_house_lorders.png)
 
 
 #### 订单模块
 
-1. 我的订单
+1. 创建订单
+
+		获取下单的房屋的id、开始时间和结束时间，用于创建订单。
+	
+2. 我的订单
 	
 		获取当前登录系统用户下的订单。即为我的订单
 
-2. 客户订单
+3. 客户订单
 
 		获取当前用户发布的房屋，通过该房屋去查询订单。即为客户下单的订单信息
 
+
+部分功能图片：
+
+![图](static/intro_images/aj_house_orders.png)
+![图](static/intro_images/aj_house_lorders.png)
